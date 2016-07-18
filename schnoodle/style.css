@@ -1,0 +1,75 @@
+/*schnoodle*/
+
+.wrapper {
+    width: 600px;
+    margin: auto;
+}
+
+.header-block {
+    border-radius: 10px;
+    border: 2px solid;
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+    text-shadow: 1px 1px #cccccc;
+    font-family: arial;
+}
+
+header {
+    background-image: linear-gradient(to left, lightgray 20%, white 80%), url('images/pawprints.jpeg');
+    background-position:left;
+    background-blend-mode: lighten;
+}
+
+img {
+    border-radius: 5px;
+    border: solid balck;
+}
+
+main {
+    border-radius: 5px;
+    border: solid balck;
+    background-image: linear-gradient(to left, lightgray 20%, white 80%), url('images/pawprints.jpeg');
+    background-position:center;
+    background-blend-mode: lighten;
+}
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #939495;
+    border-radius: 5px;
+    border: solid balck;
+    text-align: center;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: #109cab;
+}
+
+a:hover {
+    color: #ff8489;
+}
+
+a:active {
+    color: #a84c05;
+}
+
+footer a:link {
+    color: #004c8d;
+}
+
+footer a:visited {
+    color: #004c8d;
+}
+
+footer a:hover {
+    color: white;
+}
